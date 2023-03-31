@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            margin: 23px 12px;
+            padding: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: aquamarine;
+
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-radirs color; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+            /* box-shadow: -5px -7px rgb(74, 82, 61); */
+            /* box-shadow: 5px 7px 5px 10px rgba(71, 62, 198, 0.435); */
+            box-shadow: inset 3px 4px red;
+            
+
+        }
+        .card h2{
+            /* text-shadow: 1px 2px rgb(86, 96, 61); */
+            text-shadow: 1px 2px  rgb(86, 96, 61);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is web development course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, recusandae quod. Enim eius amet, quis porro ex modi eligendi obcaecati! Molestiae quaerat rem quas minima ipsa ducimus dicta aut autem sapiente perspiciatis provident laboriosam impedit vel ea, iure, neque praesentium!</p>
+
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is html course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, recusandae quod. Enim eius amet, quis porro ex modi eligendi obcaecati! Molestiae quaerat rem quas minima ipsa ducimus dicta aut autem sapiente perspiciatis provident laboriosam impedit vel ea, iure, neque praesentium!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card-3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, recusandae quod. Enim eius amet, quis porro ex modi eligendi obcaecati! Molestiae quaerat rem quas minima ipsa ducimus dicta aut autem sapiente perspiciatis provident laboriosam impedit vel ea, iure, neque praesentium!</p>
+        </div>
+    </div>
+</body>
+</html>
